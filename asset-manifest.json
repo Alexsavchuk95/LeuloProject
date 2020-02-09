@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LeuloProject/static/css/main.95a0b1bf.chunk.css",
-    "main.js": "/LeuloProject/static/js/main.4a2d31e8.chunk.js",
-    "main.js.map": "/LeuloProject/static/js/main.4a2d31e8.chunk.js.map",
+    "main.js": "/LeuloProject/static/js/main.c29cfc4c.chunk.js",
+    "main.js.map": "/LeuloProject/static/js/main.c29cfc4c.chunk.js.map",
     "runtime-main.js": "/LeuloProject/static/js/runtime-main.13add0ac.js",
     "runtime-main.js.map": "/LeuloProject/static/js/runtime-main.13add0ac.js.map",
     "static/css/2.da5eab49.chunk.css": "/LeuloProject/static/css/2.da5eab49.chunk.css",
     "static/js/2.b40b0e8c.chunk.js": "/LeuloProject/static/js/2.b40b0e8c.chunk.js",
     "static/js/2.b40b0e8c.chunk.js.map": "/LeuloProject/static/js/2.b40b0e8c.chunk.js.map",
     "index.html": "/LeuloProject/index.html",
-    "precache-manifest.888eb12e3d996e3469bb2cbe1687f3cb.js": "/LeuloProject/precache-manifest.888eb12e3d996e3469bb2cbe1687f3cb.js",
+    "precache-manifest.ebcc6e006d9586df94864b8eb282032c.js": "/LeuloProject/precache-manifest.ebcc6e006d9586df94864b8eb282032c.js",
     "service-worker.js": "/LeuloProject/service-worker.js",
     "static/css/2.da5eab49.chunk.css.map": "/LeuloProject/static/css/2.da5eab49.chunk.css.map",
     "static/css/main.95a0b1bf.chunk.css.map": "/LeuloProject/static/css/main.95a0b1bf.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.da5eab49.chunk.css",
     "static/js/2.b40b0e8c.chunk.js",
     "static/css/main.95a0b1bf.chunk.css",
-    "static/js/main.4a2d31e8.chunk.js"
+    "static/js/main.c29cfc4c.chunk.js"
   ]
 }
