@@ -1,0 +1,33 @@
+.follow {
+  padding-top: 26px;
+  max-width: 85px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.46em;
+  margin: 0 auto 50px;
+}
+
+.link {
+  width: 35px;
+  height: 35px;
+}
+.imgM {
+  width: inherit;
+  height: inherit;
+}
+
+.privacy {
+  display: flex;
+  width: 246px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.textFoo {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.43em;
+  font-size: 12px;
+  padding: 0px 20px 40px;
+}

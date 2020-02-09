@@ -1,0 +1,23 @@
+.follow {
+  padding-top: 26px;
+  max-width: 220px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.46em;
+  margin: 0 auto 50px;
+}
+
+.privacy {
+  display: flex;
+  width: 246px;
+  justify-content: space-between;
+  margin: 0 auto 50px;
+}
+
+.textFoo {
+  max-width: 955px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.43em;
+  font-size: 12px;
+}
