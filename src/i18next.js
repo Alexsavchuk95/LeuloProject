@@ -25,7 +25,8 @@ i18n
     debug: true,
     whitelist: Languages,
     backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
+      loadPath: `/LeuloProject/locales/{{lng}}/{{ns}}.json`,
+      addPath: '/LeuloProject/locales/{{lng}}/{{ns}}',
       allowMultiLoading: true,
     },
     interpolation: {
