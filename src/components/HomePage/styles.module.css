@@ -28,6 +28,14 @@
   margin: 0 auto 20px;
 }
 
+.imgW {
+  width: 48px;
+}
+
+.imgB {
+  width: 195px;
+}
+
 .list {
   max-width: 980px;
   margin: 0 auto 70px;

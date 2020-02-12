@@ -2,9 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import styles from './styles.module.css';
+import facebook from '../../assets/img/social/facebook.png';
+import insta from '../../assets/img/social/instagram.png';
 
 const social = {
   padding: '5px 0px',
+  width: '20px',
 };
 
 const tr = {
@@ -52,21 +55,13 @@ function Nav() {
       </li>
       <div className={styles.social}>
         <a href="/" target="blank">
-          <img
-            style={social}
-            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp"
-            alt="facebook"
-          />
+          <img style={social} src={facebook} alt="facebook" />
         </a>
         <a
           href="https://instagram.com/leulo.ukr?igshid=iaacez2umqs0"
           target="blank"
         >
-          <img
-            style={social}
-            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
-            alt="instagram"
-          />
+          <img style={social} src={insta} alt="instagram" />
         </a>
       </div>
     </ul>

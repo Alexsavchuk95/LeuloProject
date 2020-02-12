@@ -127,6 +127,7 @@
 .vitaImg {
   height: 118px;
   margin: 0 auto;
+  width: 118px;
 }
 
 .vitaImg:hover {
@@ -280,5 +281,12 @@
   }
   .vitList {
     justify-content: space-around;
+  }
+  .vitaImg {
+    width: 78px;
+    height: 81px;
+  }
+  .containerVit {
+    margin-bottom: 50px;
   }
 }

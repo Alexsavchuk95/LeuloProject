@@ -43,6 +43,7 @@
 #bottle {
   bottom: 300px;
   z-index: 1;
+  width: 185px;
 }
 
 @keyframes fadeInDown {
@@ -102,6 +103,7 @@
   z-index: 1;
   bottom: 380px;
   left: 200px;
+  width: 185px;
 }
 
 @keyframes fadeInRight {

@@ -2,6 +2,28 @@ import React, { Component } from 'react';
 import { withTranslation } from 'react-i18next';
 import Modal from 'react-modal';
 import PropTypes from 'prop-types';
+import vita1 from '../../assets/img/science/1.png';
+import vita2 from '../../assets/img/science/2.png';
+import vita3 from '../../assets/img/science/3.png';
+import vita4 from '../../assets/img/science/4.png';
+import vita5 from '../../assets/img/science/5.png';
+import vita6 from '../../assets/img/science/6.png';
+import vita7 from '../../assets/img/science/7.png';
+import vita8 from '../../assets/img/science/8.png';
+import vita9 from '../../assets/img/science/9.png';
+import vita10 from '../../assets/img/science/10.png';
+import vita11 from '../../assets/img/science/11.png';
+import vita12 from '../../assets/img/science/12.png';
+import vita13 from '../../assets/img/science/13.png';
+import vita14 from '../../assets/img/science/14.png';
+import vita15 from '../../assets/img/science/15.png';
+import vita16 from '../../assets/img/science/16.png';
+import vita17 from '../../assets/img/science/17.png';
+import vita18 from '../../assets/img/science/18.png';
+import vita19 from '../../assets/img/science/19.png';
+import vita20 from '../../assets/img/science/20.png';
+import Bounce from '../../assets/img/Bouncebackblend.png';
+import Dew from '../../assets/img/dewelixir.png';
 import styles from './styles.module.css';
 
 const dew = {
@@ -243,11 +265,7 @@ class Science extends Component {
                   <p className={styles.text}>{t('Science.7')}</p>
                 </li>
               </ul>
-              <img
-                className={styles.bottleImg}
-                src="https://static.wixstatic.com/media/5bd4e0_d17d441e93304fda9e96aaa09b53906d~mv2.png/v1/fill/w_180,h_315,al_c,q_85,usm_0.66_1.00_0.01/Bounce%20back%20blend.webp"
-                alt=""
-              />
+              <img className={styles.bottleImg} src={Bounce} alt="" />
             </div>
             <div>
               <ul className={styles.vitList}>
@@ -257,7 +275,7 @@ class Science extends Component {
                     <button onClick={this.openModal} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_88420b939dd54975999633fde5e58c4a~mv2.png/v1/fill/w_118,h_118,al_c,q_85,usm_0.66_1.00_0.01/orange.webp"
+                        src={vita1}
                         alt="vitamine"
                       />
                     </button>
@@ -291,7 +309,7 @@ class Science extends Component {
                     <button onClick={this.openSecondModal} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_f3755dcb6e9049feaa7587e92e927e9c~mv2.png/v1/fill/w_109,h_109,al_c,q_85,usm_0.66_1.00_0.01/gel.webp"
+                        src={vita2}
                         alt="vitamine"
                       />
                     </button>
@@ -325,7 +343,7 @@ class Science extends Component {
                     <button onClick={this.openModal3} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_36127ad9509944eaa33b0d4c4a5ec363~mv2.png/v1/fill/w_113,h_113,al_c,q_85,usm_0.66_1.00_0.01/fresa.webp"
+                        src={vita3}
                         alt="vitamine"
                       />
                     </button>
@@ -358,7 +376,7 @@ class Science extends Component {
                     <button onClick={this.openModal4} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_565766f6d6d04fd3bc2f5c1f23a0d931~mv2.png/v1/fill/w_112,h_112,al_c,q_85,usm_0.66_1.00_0.01/aloe.webp"
+                        src={vita4}
                         alt="vitamine"
                       />
                     </button>
@@ -391,7 +409,7 @@ class Science extends Component {
                     <button onClick={this.openModal5} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_eba27838e4484bfb9a5363ec8d8ebb19~mv2.png/v1/fill/w_107,h_105,al_c,q_85,usm_0.66_1.00_0.01/banana.webp"
+                        src={vita5}
                         alt="vitamine"
                       />
                     </button>
@@ -424,7 +442,7 @@ class Science extends Component {
                     <button onClick={this.openModal6} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_ad46b5aad35841669fdf7276d32b7f0c~mv2.png/v1/fill/w_111,h_109,al_c,q_85,usm_0.66_1.00_0.01/aguacate.webp"
+                        src={vita6}
                         alt="vitamine"
                       />
                     </button>
@@ -457,7 +475,7 @@ class Science extends Component {
                     <button onClick={this.openModal7} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_aea6edb83e6741e7874ff86c7e31688d~mv2.png/v1/fill/w_110,h_110,al_c,q_85,usm_0.66_1.00_0.01/lulo.webp"
+                        src={vita7}
                         alt="vitamine"
                       />
                     </button>
@@ -490,7 +508,7 @@ class Science extends Component {
                     <button onClick={this.openModal8} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_16fcb5ea38bf4a2a9b5e8749f2e9dabf~mv2.png/v1/fill/w_115,h_115,al_c,q_85,usm_0.66_1.00_0.01/brocoli.webp"
+                        src={vita8}
                         alt="vitamine"
                       />
                     </button>
@@ -523,7 +541,7 @@ class Science extends Component {
                     <button onClick={this.openModal9} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_b2c332c393374538a1be11e0e870d5a2~mv2.png/v1/fill/w_112,h_112,al_c,q_85,usm_0.66_1.00_0.01/tumeric.webp"
+                        src={vita9}
                         alt="vitamine"
                       />
                     </button>
@@ -556,7 +574,7 @@ class Science extends Component {
                     <button onClick={this.openModal10} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_adbc8d32f84b4a41972fbbc3eff593d2~mv2.png/v1/fill/w_101,h_101,al_c,q_85,usm_0.66_1.00_0.01/ly.webp"
+                        src={vita10}
                         alt="vitamine"
                       />
                     </button>
@@ -589,7 +607,7 @@ class Science extends Component {
                     <button onClick={this.openModal11} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_f2de186faa9c44a4ab1c8a510057c660~mv2.png/v1/fill/w_115,h_115,al_c,q_85,usm_0.66_1.00_0.01/grape.webp"
+                        src={vita11}
                         alt="vitamine"
                       />
                     </button>
@@ -622,7 +640,7 @@ class Science extends Component {
                     <button onClick={this.openModal12} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_f7e8c5e48cb24763b7fcfb31bf691700~mv2.png/v1/fill/w_115,h_115,al_c,q_85,usm_0.66_1.00_0.01/mushroom.webp"
+                        src={vita12}
                         alt="vitamine"
                       />
                     </button>
@@ -655,7 +673,7 @@ class Science extends Component {
                     <button onClick={this.openModal13} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_cd5a23df6cb24a4799d59da18a125afb~mv2.png/v1/fill/w_116,h_116,al_c,q_85,usm_0.66_1.00_0.01/greenbean.webp"
+                        src={vita13}
                         alt="vitamine"
                       />
                     </button>
@@ -688,7 +706,7 @@ class Science extends Component {
                     <button onClick={this.openModal14} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_aff05a5de32f413098ac3ba843b0bb94~mv2.png/v1/fill/w_113,h_113,al_c,q_85,usm_0.66_1.00_0.01/greentea.webp"
+                        src={vita14}
                         alt="vitamine"
                       />
                     </button>
@@ -721,7 +739,7 @@ class Science extends Component {
                     <button onClick={this.openModal15} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_89a6026e26574e95a57e80a0498d77da~mv2.png/v1/fill/w_107,h_107,al_c,q_85,usm_0.66_1.00_0.01/collagen.webp"
+                        src={vita15}
                         alt="vitamine"
                       />
                     </button>
@@ -754,7 +772,7 @@ class Science extends Component {
                     <button onClick={this.openModal16} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_ff8b66c43f2c44e180ecdbef83cfa0bf~mv2.png/v1/fill/w_115,h_108,al_c,q_85,usm_0.66_1.00_0.01/guava.webp"
+                        src={vita16}
                         alt="vitamine"
                       />
                     </button>
@@ -811,7 +829,7 @@ class Science extends Component {
                 <img
                   id={styles.Up}
                   className={styles.bottleImg}
-                  src="https://static.wixstatic.com/media/5bd4e0_7eebd06f23344ea78ac0ab27eea35a39~mv2.png/v1/fill/w_185,h_355,al_c,q_85,usm_0.66_1.00_0.01/dew%20elixir.webp"
+                  src={Dew}
                   alt="Elixir"
                 />
               </div>
@@ -822,7 +840,7 @@ class Science extends Component {
                     <button onClick={this.openModal17} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_75854abf8dc44b28810da6bd60e176f1~mv2.png/v1/fill/w_121,h_120,al_c,q_85,usm_0.66_1.00_0.01/b12.webp"
+                        src={vita17}
                         alt="vitamine"
                       />
                     </button>
@@ -855,7 +873,7 @@ class Science extends Component {
                     <button onClick={this.openModal} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_88420b939dd54975999633fde5e58c4a~mv2.png/v1/fill/w_125,h_122,al_c,q_85,usm_0.66_1.00_0.01/orange.webp"
+                        src={vita1}
                         alt="vitamine"
                       />
                     </button>
@@ -888,7 +906,7 @@ class Science extends Component {
                     <button onClick={this.openModal19} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_043010b489614080a4ba6c3cd7f4cc64~mv2.png/v1/fill/w_115,h_112,al_c,q_85,usm_0.66_1.00_0.01/garbanzos.webp"
+                        src={vita18}
                         alt="vitamine"
                       />
                     </button>
@@ -921,7 +939,7 @@ class Science extends Component {
                     <button onClick={this.openModal8} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_16fcb5ea38bf4a2a9b5e8749f2e9dabf~mv2.png/v1/crop/x_0,y_0,w_300,h_287/fill/w_115,h_110,al_c,q_85,usm_0.66_1.00_0.01/brocoli.webp"
+                        src={vita8}
                         alt="vitamine"
                       />
                     </button>
@@ -954,7 +972,7 @@ class Science extends Component {
                     <button onClick={this.openModal21} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_c38d45197f9f4a729338732d8aaaea74~mv2.png/v1/fill/w_105,h_109,al_c,q_85,usm_0.66_1.00_0.01/wheat.webp"
+                        src={vita19}
                         alt="vitamine"
                       />
                     </button>
@@ -987,7 +1005,7 @@ class Science extends Component {
                     <button onClick={this.openModal22} type="button">
                       <img
                         className={styles.vitaImg}
-                        src="https://static.wixstatic.com/media/5bd4e0_7baff944eb7449f69227e7392464244a~mv2.png/v1/fill/w_112,h_109,al_c,q_85,usm_0.66_1.00_0.01/oil.webp"
+                        src={vita20}
                         alt="vitamine"
                       />
                     </button>
