@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a86baa3d32cb50e8b68f2e3fe71c0205",
+    "revision": "18a99ac19b9c3e4801d77103ee40c150",
     "url": "/LeuloProject/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LeuloProject/static/css/2.da5eab49.chunk.css"
   },
   {
-    "revision": "ae02afd9932cce8f784b",
-    "url": "/LeuloProject/static/css/main.88779345.chunk.css"
+    "revision": "0fe20b3a19de63814b27",
+    "url": "/LeuloProject/static/css/main.231148ce.chunk.css"
   },
   {
     "revision": "b0fcdd1115b9c3db9dbe",
     "url": "/LeuloProject/static/js/2.73b34e9b.chunk.js"
   },
   {
-    "revision": "ae02afd9932cce8f784b",
-    "url": "/LeuloProject/static/js/main.86d177ad.chunk.js"
+    "revision": "0fe20b3a19de63814b27",
+    "url": "/LeuloProject/static/js/main.3f25398a.chunk.js"
   },
   {
     "revision": "275b7d2ee74094630a05",
