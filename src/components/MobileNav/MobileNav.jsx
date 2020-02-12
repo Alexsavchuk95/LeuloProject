@@ -39,7 +39,7 @@ const MobileNav = ({ t, closeMenu }) => {
           <img className={styles.socialImg} src={facebook} alt="facebook" />
         </a>
         <a
-          href="/https://instagram.com/leulo.ukr?igshid=iaacez2umqs0"
+          href="https://instagram.com/leulo.ukr?igshid=iaacez2umqs0"
           target="blank"
         >
           <img className={styles.socialImg} src={insta} alt="instagram" />
