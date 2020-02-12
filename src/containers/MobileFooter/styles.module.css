@@ -18,7 +18,6 @@
 
 .privacy {
   display: flex;
-  width: 170px;
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px 0px;
@@ -30,4 +29,9 @@
   line-height: 1.43em;
   font-size: 12px;
   padding: 0px 20px 40px;
+}
+
+.privImg {
+  width: 170px;
+  margin: 0 auto;
 }

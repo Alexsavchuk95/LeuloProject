@@ -10,7 +10,7 @@ function MobileFooter() {
   return (
     <footer>
       <div className={styles.privacy}>
-        <img src={fImg} alt="img" width="170px" />
+        <img className={styles.privImg} src={fImg} alt="img" />
       </div>
       <div className={styles.follow}>
         <a className={styles.link} href="/">
