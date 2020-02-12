@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LeuloProject/precache-manifest.af0326bc3de8a92b39047f054b7aab34.js"
+  "/LeuloProject/precache-manifest.5fabc50cacc49913d1a6a558d4db1677.js"
 );
 
 self.addEventListener('message', (event) => {
