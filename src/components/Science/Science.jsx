@@ -271,7 +271,7 @@ class Science extends Component {
               <ul className={styles.vitList}>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.1')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal} type="button">
                       <img
                         className={styles.vitaImg}
@@ -304,7 +304,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.2')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     {/* DOING MODAL */}
                     <button onClick={this.openSecondModal} type="button">
                       <img
@@ -339,8 +339,12 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.3')}</span>
-                  <div>
-                    <button onClick={this.openModal3} type="button">
+                  <div className={styles.openModal}>
+                    <button
+                      onClick={this.openModal3}
+                      className={styles.opendModal}
+                      type="button"
+                    >
                       <img
                         className={styles.vitaImg}
                         src={vita3}
@@ -372,7 +376,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.4')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal4} type="button">
                       <img
                         className={styles.vitaImg}
@@ -405,7 +409,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.5')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal5} type="button">
                       <img
                         className={styles.vitaImg}
@@ -438,7 +442,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.6')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal6} type="button">
                       <img
                         className={styles.vitaImg}
@@ -471,7 +475,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.7')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal7} type="button">
                       <img
                         className={styles.vitaImg}
@@ -504,7 +508,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.8')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal8} type="button">
                       <img
                         className={styles.vitaImg}
@@ -537,7 +541,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.9')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal9} type="button">
                       <img
                         className={styles.vitaImg}
@@ -570,7 +574,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.10')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal10} type="button">
                       <img
                         className={styles.vitaImg}
@@ -603,7 +607,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.11')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal11} type="button">
                       <img
                         className={styles.vitaImg}
@@ -636,7 +640,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.12')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal12} type="button">
                       <img
                         className={styles.vitaImg}
@@ -669,7 +673,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.13')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal13} type="button">
                       <img
                         className={styles.vitaImg}
@@ -702,7 +706,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.14')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal14} type="button">
                       <img
                         className={styles.vitaImg}
@@ -735,7 +739,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.15')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal15} type="button">
                       <img
                         className={styles.vitaImg}
@@ -768,7 +772,7 @@ class Science extends Component {
                 </li>
                 <li id={styles.vitL} className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.16')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal16} type="button">
                       <img
                         className={styles.vitaImg}
@@ -836,7 +840,7 @@ class Science extends Component {
               <ul className={styles.vitList} id={styles.viList}>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.17')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal17} type="button">
                       <img
                         className={styles.vitaImg}
@@ -869,7 +873,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.18')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal} type="button">
                       <img
                         className={styles.vitaImg}
@@ -902,7 +906,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.19')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal19} type="button">
                       <img
                         className={styles.vitaImg}
@@ -935,7 +939,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.20')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal8} type="button">
                       <img
                         className={styles.vitaImg}
@@ -968,7 +972,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.21')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal21} type="button">
                       <img
                         className={styles.vitaImg}
@@ -1001,7 +1005,7 @@ class Science extends Component {
                 </li>
                 <li className={styles.itemVit}>
                   <span className={styles.vitaText}>{t('Vitamin.22')}</span>
-                  <div>
+                  <div className={styles.opendModal}>
                     <button onClick={this.openModal22} type="button">
                       <img
                         className={styles.vitaImg}

@@ -128,9 +128,10 @@
   height: 118px;
   margin: 0 auto;
   width: 118px;
+  object-fit: contain;
 }
 
-.vitaImg:hover {
+.opendModal:hover {
   border: 2px #d0aa6c solid;
   border-radius: 50%;
   box-shadow: 2px 1px 30px 6px rgba(0, 0, 0, 0.45);

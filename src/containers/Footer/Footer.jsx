@@ -22,7 +22,7 @@ function Footer() {
         </a>
       </div>
       <div className={styles.privacy}>
-        <img src={fImg} alt="img" width="246px " />
+        <img src={fImg} alt="img" className={styles.imgPr} />
       </div>
       <div className={styles.textFoo}>
         <p>{t('Foot.2')}</p>
