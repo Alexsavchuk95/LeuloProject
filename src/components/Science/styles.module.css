@@ -293,4 +293,7 @@
     width: 84px;
     height: 84px;
   }
+  .wrapper {
+    padding: 70px 0px 0px;
+  }
 }
