@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9362a5030f3c1ed7eb9b34bbe6941bf9",
+    "revision": "705e0c89a95629d5137606a169e21a68",
     "url": "/LeuloProject/index.html"
   },
   {
-    "revision": "6da748d3e1153efa24b4",
+    "revision": "471a1ee2710ce3407cd9",
     "url": "/LeuloProject/static/css/2.5eb6d2ac.chunk.css"
   },
   {
-    "revision": "6ed59bea9d98a23f59da",
-    "url": "/LeuloProject/static/css/main.35e715ef.chunk.css"
+    "revision": "3503b875c20adc8bccda",
+    "url": "/LeuloProject/static/css/main.c9bf27fc.chunk.css"
   },
   {
-    "revision": "6da748d3e1153efa24b4",
-    "url": "/LeuloProject/static/js/2.afd2b7cd.chunk.js"
+    "revision": "471a1ee2710ce3407cd9",
+    "url": "/LeuloProject/static/js/2.030a591c.chunk.js"
   },
   {
-    "revision": "6ed59bea9d98a23f59da",
-    "url": "/LeuloProject/static/js/main.c5f31c7a.chunk.js"
+    "revision": "3503b875c20adc8bccda",
+    "url": "/LeuloProject/static/js/main.faafeb8d.chunk.js"
   },
   {
     "revision": "275b7d2ee74094630a05",
