@@ -33,6 +33,17 @@
 }
 
 /* ANIMATIN BOTTLE ----------------- */
+.bottle {
+  margin-top: 70px;
+  height: fit-content;
+}
+
+.bottle:hover {
+  border: 1px #d0aa6c solid;
+  box-shadow: 2px 1px 30px 6px rgba(0, 0, 0, 0.45);
+  background: #f0eae6;
+  cursor: pointer;
+}
 .bottleCont {
   width: 496px;
   height: 496px;
@@ -46,7 +57,6 @@
   width: 180px;
   height: 315px;
   object-fit: cover;
-  margin-top: 70px;
   animation-name: slideInLeft;
   animation-duration: 2s;
   animation-delay: 0s;
@@ -56,6 +66,7 @@
   from {
     transform: translate3d(-60%, 0, 0);
     visibility: visible;
+    opacity: 0;
   }
 
   to {
@@ -63,14 +74,11 @@
   }
 }
 
-#Up {
-  animation-name: slideInUp;
-}
-
 @keyframes slideInUp {
   from {
     transform: translate3d(0, 40%, 0);
     visibility: visible;
+    opacity: 0;
   }
 
   to {
@@ -195,6 +203,7 @@
 .modText {
   font-size: 16px;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .btn {

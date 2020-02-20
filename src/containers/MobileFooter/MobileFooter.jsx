@@ -13,7 +13,11 @@ function MobileFooter() {
         <img className={styles.privImg} src={fImg} alt="img" />
       </div>
       <div className={styles.follow}>
-        <a className={styles.link} href="/" target="blank">
+        <a
+          className={styles.link}
+          href="https://www.facebook.com/Leuloukraine-100773991516551/?modal=admin_todo_tour"
+          target="blank"
+        >
           <img className={styles.imgM} src={facebook} alt="facebook" />
         </a>
         <a

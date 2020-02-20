@@ -52,6 +52,8 @@ class Science extends Component {
     modalIsOpen19: false,
     modalIsOpen21: false,
     modalIsOpen22: false,
+    modalBottleBounce: false,
+    modalBottleDew: false,
   };
 
   openModal = () => {
@@ -214,6 +216,22 @@ class Science extends Component {
     this.setState({ modalIsOpen22: false });
   };
 
+  openModalBottleBounce = () => {
+    this.setState({ modalBottleBounce: true });
+  };
+
+  closeModalBottleBounce = () => {
+    this.setState({ modalBottleBounce: false });
+  };
+
+  openModalDew = () => {
+    this.setState({ modalBottleDew: true });
+  };
+
+  closeModalDew = () => {
+    this.setState({ modalBottleDew: false });
+  };
+
   render() {
     const { t } = this.props;
     const {
@@ -237,6 +255,8 @@ class Science extends Component {
       modalIsOpen19,
       modalIsOpen21,
       modalIsOpen22,
+      modalBottleBounce,
+      modalBottleDew,
     } = this.state;
     return (
       <>
@@ -265,7 +285,37 @@ class Science extends Component {
                   <p className={styles.text}>{t('Science.7')}</p>
                 </li>
               </ul>
-              <img className={styles.bottleImg} src={Bounce} alt="" />
+              <div className={styles.bottle}>
+                <button onClick={this.openModalBottleBounce} type="button">
+                  <img className={styles.bottleImg} src={Bounce} alt="" />
+                </button>
+                <Modal
+                  ariaHideApp={false}
+                  isOpen={modalBottleBounce}
+                  onRequestClose={this.closeModalBottleBounce}
+                  className={styles.mod}
+                  contentLabel="Vitamin"
+                >
+                  <div className={styles.modCont}>
+                    <button
+                      className={styles.btn}
+                      type="button"
+                      onClick={this.closeModalBottleBounce}
+                    >
+                      <span className={styles.close} />
+                    </button>
+                  </div>
+                  <div className={styles.modCon}>
+                    <h3 className={styles.modTitle}>{t('Bottle.1')}</h3>
+                    <h4 className={styles.modText}>{t('Bottle.2')}</h4>
+                    <p className={styles.modText}>{t('Bottle.3')}</p>
+                    <p className={styles.modText}>{t('Bottle.4')}</p>
+                    <h4 className={styles.modText}>{t('Bottle.5')}</h4>
+                    <p className={styles.modText}>{t('Bottle.6')}</p>
+                    <p className={styles.modText}>{t('Bottle.7')}</p>
+                  </div>
+                </Modal>
+              </div>
             </div>
             <div>
               <ul className={styles.vitList}>
@@ -826,16 +876,43 @@ class Science extends Component {
                   <li className={styles.listItem}>
                     <p className={styles.text}>{t('Dew.5')}</p>
                   </li>
-                  <li className={styles.listItem}>
-                    <p className={styles.text}>{t('Dew.6')}</p>
-                  </li>
                 </ul>
-                <img
-                  id={styles.Up}
-                  className={styles.bottleImg}
-                  src={Dew}
-                  alt="Elixir"
-                />
+                <div className={styles.bottle}>
+                  <button onClick={this.openModalDew} type="button">
+                    <img
+                      id={styles.Up}
+                      className={styles.bottleImg}
+                      src={Dew}
+                      alt="Elixir"
+                    />
+                  </button>
+                  <Modal
+                    ariaHideApp={false}
+                    isOpen={modalBottleDew}
+                    onRequestClose={this.closeModalDew}
+                    className={styles.mod}
+                    contentLabel="Vitamin"
+                  >
+                    <div className={styles.modCont}>
+                      <button
+                        className={styles.btn}
+                        type="button"
+                        onClick={this.closeModalDew}
+                      >
+                        <span className={styles.close} />
+                      </button>
+                    </div>
+                    <div className={styles.modCon}>
+                      <h3 className={styles.modTitle}>{t('BottleDew.1')}</h3>
+                      <h4 className={styles.modText}>{t('Bottle.2')}</h4>
+                      <p className={styles.modText}>{t('BottleDew.2')}</p>
+                      <p className={styles.modText}>{t('BottleDew.3')}</p>
+                      <h4 className={styles.modText}>{t('Bottle.5')}</h4>
+                      <p className={styles.modText}>{t('Bottle.6')}</p>
+                      <p className={styles.modText}>{t('BottleDew.4')}</p>
+                    </div>
+                  </Modal>
+                </div>
               </div>
               <ul className={styles.vitList} id={styles.viList}>
                 <li className={styles.itemVit}>

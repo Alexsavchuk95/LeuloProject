@@ -11,7 +11,10 @@ function Footer() {
     <footer>
       <div className={styles.follow}>
         <span>{t('Foot.1')}</span>
-        <a href="/" target="blank">
+        <a
+          href="https://www.facebook.com/Leuloukraine-100773991516551/?modal=admin_todo_tour"
+          target="blank"
+        >
           <img src={facebook} alt="facebook" width="20px" />
         </a>
         <a

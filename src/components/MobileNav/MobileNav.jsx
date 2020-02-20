@@ -35,7 +35,10 @@ const MobileNav = ({ t, closeMenu }) => {
         </li>
       </ul>
       <div className={styles.social}>
-        <a href="/" target="blank">
+        <a
+          href="https://www.facebook.com/Leuloukraine-100773991516551/?modal=admin_todo_tour"
+          target="blank"
+        >
           <img className={styles.socialImg} src={facebook} alt="facebook" />
         </a>
         <a

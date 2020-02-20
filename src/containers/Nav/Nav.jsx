@@ -54,7 +54,10 @@ function Nav() {
         <NavLink to="/contact-us">{t('Navigation.3')}</NavLink>
       </li>
       <div className={styles.social}>
-        <a href="/" target="blank">
+        <a
+          href="https://www.facebook.com/Leuloukraine-100773991516551/?modal=admin_todo_tour"
+          target="blank"
+        >
           <img style={social} src={facebook} alt="facebook" />
         </a>
         <a
