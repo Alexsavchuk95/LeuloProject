@@ -34,7 +34,7 @@ class ContactForm extends Component {
     const { name, email, phone, subject, message } = this.state;
     const templateParams = {
       from_name: email,
-      to_name: 'gabeneblan@gmail.com',
+      to_name: 'leulo.ukraine@gmail.com',
       subject_html: subject,
       name_html: name,
       phone_html: phone,
@@ -42,10 +42,10 @@ class ContactForm extends Component {
     };
     emailjs
       .send(
-        'gabeneblan@gmail.com',
-        'template_61TCUOsw',
+        'leulo.ukraine@gmail.com',
+        'template_hTgycSwb',
         templateParams,
-        'user_Dyuz9FIRhuwUv25HK4B8v',
+        'user_quDrUEs1QR5AXR6slpVv2',
       )
       .then(
         response => {
