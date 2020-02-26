@@ -18,7 +18,7 @@ function MobileContact() {
           </a>
           <h3 className={styles.contacs}>{t('ContuctUs.5')}</h3>
           <a className={styles.spCont} href="/">
-            +3 (093) 576 91 42
+            +3 8(063) 404 51 64
           </a>
         </div>
         <ContactForm />
