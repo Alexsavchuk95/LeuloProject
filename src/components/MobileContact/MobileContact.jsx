@@ -14,7 +14,7 @@ function MobileContact() {
           <p className={styles.textCon}>{t('ContuctUs.3')}</p>
           <h3 className={styles.contacs}>{t('ContuctUs.4')}</h3>
           <a className={styles.spCont} href="/">
-            contact@leulo.com
+            leulo.ukraine@gmail.com
           </a>
           <h3 className={styles.contacs}>{t('ContuctUs.5')}</h3>
           <a className={styles.spCont} href="/">
